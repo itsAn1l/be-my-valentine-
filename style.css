@@ -68,3 +68,25 @@ body {
 .hidden {
   display: none;
 }
+
+/* ... (your existing styles) ... */
+
+.envelope-container {
+  position: relative;
+}
+
+.envelope-img {
+  width: 100%;
+  height: 100%;
+  /* margin-bottom: 2rem; */
+}
+
+.btn--open {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #eb1e26;
+}
+
+/* ... (rest of your styles) ... */

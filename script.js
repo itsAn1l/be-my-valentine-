@@ -61,3 +61,14 @@ function changeImage(image) {
 function updateNoButtonText() {
   noButton.innerHTML = generateMessage(noCount);
 }
+
+const envelopeContainer = document.querySelector(".envelope-container");
+const openButton = document.querySelector(".btn--open");
+const content = document.querySelector(".content");
+
+openButton.addEventListener("click", function () {
+  envelopeContainer.classList.add("hidden");
+  content.classList.remove("hidden");
+  // Add any additional logic you need after opening the envelope
+});
+

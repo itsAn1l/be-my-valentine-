@@ -14,14 +14,28 @@
   </head>
   <body>
     <main class="container">
-      <img class="cat-img" src="img/cat-0.jpg" alt="Picture of a cat" />
-      <p class="title">Will you be my Valentine?</p>
-      <div class="buttons">
-        <button type="button" class="btn btn--yes">Yes</button>
-        <button type="button" class="btn btn--no">No</button>
+      <div class="envelope-container">
+        <img class="envelope-img" src="./img/envelope.png" alt="Envelope" />
+        <button type="button" class="btn btn--open" id="open-btn">Open</button>
+      </div>
+      <div class="content hidden">
+        <!-- Your existing content here -->
+        <img class="cat-img" src="img/cat-0.jpg" alt="Picture of a cat" />
+        <p class="title">Will you be my Valentine?</p>
+        <!-- ... (rest of your content) ... -->
+        <div class="buttons">
+          <button type="button" class="btn btn--yes">Yes</button>
+          <button type="button" class="btn btn--no">No</button>
+        </div>
       </div>
     </main>
 
+    <!-- <main class="container">
+      <img class="cat-img" src="img/cat-0.jpg" alt="Picture of a cat" />
+    </main> -->
+
+
     <script type="module" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </body>
 </html>
